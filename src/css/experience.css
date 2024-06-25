@@ -1,0 +1,18 @@
+.Experience_Heading{
+    font-size:50px;
+    color:maroon;
+    font-family: serif;
+}
+.Experience_Project_Heading{
+    color:#FC6d6d;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 25px;
+}
+.Experience_Project_Content{
+    color:#fbbb08;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: bold;
+    font-size:25px;
+}

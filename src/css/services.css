@@ -1,0 +1,26 @@
+h1,h2,h3, .subheading{
+    color: darkgreen;
+    list-style: none;
+    font-style:normal;
+    font-weight: 200;
+    font-family: serif;
+    
+}
+.service-component{
+    border-radius: 10%;
+    z-index: 15;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+.service-info{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: maroon;
+}
+/* .col-gap{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.row-gap{
+    margin-right:5px;
+    margin-left:5px;
+} */

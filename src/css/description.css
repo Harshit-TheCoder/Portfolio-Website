@@ -1,0 +1,33 @@
+.About_content{
+    color:#2c3e50;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: bold;
+    font-size:20px;
+}
+.scrollable-div::-webkit-scrollbar{
+    display:none;
+}
+.scrollable-div{
+    border-radius: 5%;
+    z-index: 10;
+    background-color: rgb(252,252,252);
+    box-shadow: 5px 5px 5px 5px #FC6d6d;
+}
+.precise_insights{
+    font-family: 'Times New Roman', Times, serif;
+    color:#FC6d6d;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+.precise_insights_content{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgreen;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 18px;
+}

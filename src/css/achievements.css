@@ -1,0 +1,16 @@
+
+.list-item-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Three columns with equal width */
+ /* Gap between grid items */
+    row-gap: 20px;
+}
+.inner-div-2-content{
+    text-align: left;
+    color:darkgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: bold;
+    font-size:20px;
+    margin-top: 100px;
+}

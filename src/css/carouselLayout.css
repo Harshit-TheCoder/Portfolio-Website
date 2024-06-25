@@ -1,0 +1,48 @@
+.carouselLayout{
+    display:grid !important;
+    grid-template-rows: 3 !important;
+    grid-template-columns: 3 !important;
+    gap: 5px;
+    margin:30px;
+    padding:10px;
+}
+.carousel_image_adjust{
+    width:500px;
+    height:350px;
+    border-radius: 15%;
+    border: 2px solid maroon;
+    z-index: 5;
+    box-shadow: 5px 10px 8px 10px #888888;
+    /* position: absolute; */
+}
+.project_link{
+    text-decoration: none;
+    font-family: sans-serif;;
+    font-style: bold;
+    font-weight: 100;
+    font-size: 20px;
+    color: maroon;
+}
+/* .button{
+    position: absolute;
+    top:700px;
+    right:700px;
+} */
+.button-container {
+    position: relative;
+  }
+  
+  .button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .button.left {
+    left: 80px; /* Adjust this value as needed */
+  }
+  
+  .button.right {
+    right: 80px; /* Adjust this value as needed */
+  }
+  
