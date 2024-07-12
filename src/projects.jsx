@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/header";
 import Main from './components/main';
 import Footer from "./components/footer";
-import Project_Components from "./components/Project_Components";
+import ProjectComponents from "./components/Project_Components";
 import "./css/carouselLayout.css";
 import "./css/projects.css";
 import img1 from "./components/img1.jpg";
@@ -33,8 +33,8 @@ function Projects() {
         <h1 className="project_heading" style={{   }}>My Projects:</h1>
         </center>
         <div className="container project_container">
-              <Project_Components I1={projectImages1} I2={projectImages2} H1="HealthCare-Website" H2="Password-Generator-Website" />
-              <Project_Components I1={projectImages3} I2={projectImages4} H1="Language-Translator-Website" H2="Random Image"  />
+              <ProjectComponents I1={projectImages1} I2={projectImages2} I3={projectImages4} H1="HealthCare-Website" H2="Password-Generator-Website" H3="Random Image"/>
+              <ProjectComponents I1={projectImages3} I2={projectImages4} I3={projectImages4} H1="Language-Translator-Website" H2="Random Image"  H3="Random Image"/>
         </div>
          </Main>
       <Footer />

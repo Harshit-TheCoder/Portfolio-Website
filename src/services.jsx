@@ -3,7 +3,7 @@ import Header  from "./components/header";
 import Footer from "./components/footer";
 import Main from "./components/main";
 import "../src/css/services.css";
-import Service_Component from "./components/service_component";
+import ServiceComponent from "./components/service_component";
 function Services(){
     return(
         <div>
@@ -12,7 +12,7 @@ function Services(){
             <center><h1>Services</h1></center>
             
             <div className='container' >
-               <Service_Component />
+               <ServiceComponent />
             </div>
             </Main>
             <Footer />

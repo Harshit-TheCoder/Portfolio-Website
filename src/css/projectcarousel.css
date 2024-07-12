@@ -1,0 +1,48 @@
+.project_carousel_image_adjust {
+    width: 400px;
+    height: 300px;
+    border-radius: 15%;
+    border: 2px solid maroon;
+    z-index: 5;
+    box-shadow: 5px 10px 8px 10px #888888;
+    /* animation: pendulumSwing 6s infinite; */
+    /* transform-origin: center bottom; */
+  }
+  
+  /* @keyframes pendulumSwing {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(30deg);
+    }
+    50.1% {
+      transform: rotate(-30deg);
+    }
+  } */
+.project_link{
+    text-decoration: none;
+    font-family: sans-serif;;
+    font-style: bold;
+    font-weight: 100;
+    font-size: 20px;
+    color: maroon;
+}
+  .button-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .leftbutton {
+    left: 80px; /* Adjust this value as needed */
+  }
+  
+  .rightbutton {
+    right: 80px; /* Adjust this value as needed */
+  }
+  .leftbutton, .rightbutton{
+    border-radius: 40px;
+    width:50px;
+    height:50px;
+    background-color: aquamarine;
+  }
+  

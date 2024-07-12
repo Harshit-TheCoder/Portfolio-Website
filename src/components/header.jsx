@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import "../css/header.css";
 function Header(){
     return(
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top z-index-1 shadow-lg  header_class" >
-        <div class="container-fluid">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top z-index-1 shadow-lg  header_class" >
+        <div className="container-fluid">
          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav list_items">
             <li className="nav-item">
               <a className="nav-link list_items" aria-current="page" href="/">Home</a>

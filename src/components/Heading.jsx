@@ -2,7 +2,7 @@ import React from "react";
 
 const Heading = ({heading}) => {
     return(
-        <h5 style={{ color: "#fc6d6d"}}>{heading}</h5>
+        <center><h3 style={{ color: "#fc6d6d", margin:"10px", padding:"10px", fontFamily:"serif"}}>{heading}</h3></center>
         
     );
 };

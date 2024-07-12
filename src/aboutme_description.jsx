@@ -24,13 +24,13 @@ function Description(){
                         <span className='precise_insights'>Degree</span>: B-Tech in Computer Science and Engineering with specialization in Artificial Intelligence and Machine Learning
                     </li>
           </ul>
-                <p class="About_content">
+                <p className="About_content">
                     Hello !! <br /> My name is Harshit Harlalka. I am thrilled to have this opportunity to introduce myself to you.
                     <br /> I always had a passion for Artificial Intelligence and Machine Learning. 
                     Over the years, I've had the privilege of learning coding from a personalized Tutor and Online Courses.
                     <br /> These experiences have not only shaped my professional journey but also allowed me to develop a keen eye for Coding.
                 </p>
-                <p class="About_content">
+                <p className="About_content">
                 Through this website I want you to get an insite about me , my skills , and my journey which I want to share with you.
                   I started my coding journey with Java in 2019, when I was in standard 9 in my school. 
                   I had already completed most of it's portion before I came to standard 11 where due to a major academic setback of 2 years i was unable to continue the same momentum.

@@ -17,12 +17,12 @@ const Carousel = ({ images }) => {
 
   return (
     
-      <div className='button-container'>
+      <div className='button-container-carousel'>
       <img src={images[currentIndex]} className="carousel_image_adjust" alt={`Slide ${currentIndex}`} />
       <br />
       <br />
-      <button onClick={prevSlide} className='button left' style={{ marginRight:'400px'}}>👈</button>
-      <button onClick={nextSlide} className='button right' >👉</button>
+      <button onClick={prevSlide} className='button-left' style={{ marginRight:'400px'}}>👈</button>
+      <button onClick={nextSlide} className='button-right' >👉</button>
       
       </div>
       

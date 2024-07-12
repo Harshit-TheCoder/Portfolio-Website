@@ -1,6 +1,6 @@
 import React from "react";
 
-function Service_Component(){
+function ServiceComponent(){
     return(
         <div className='row row-gap'>
               <div className='col-3 service-component col-gap' >
@@ -27,4 +27,4 @@ function Service_Component(){
         </div>
     );
 }
-export default Service_Component;
+export default ServiceComponent;

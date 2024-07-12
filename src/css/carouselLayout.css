@@ -28,7 +28,7 @@
     top:700px;
     right:700px;
 } */
-.button-container {
+.button-container-carousel {
     position: relative;
   }
   
@@ -38,11 +38,17 @@
     transform: translateY(-50%);
   }
   
-  .button.left {
+  .button-left {
     left: 80px; /* Adjust this value as needed */
   }
   
-  .button.right {
+  .button-right {
     right: 80px; /* Adjust this value as needed */
+  }
+  .button-left, .button-right{
+    border-radius: 40px;
+    width:50px;
+    height:50px;
+    background-color: aquamarine;
   }
   
