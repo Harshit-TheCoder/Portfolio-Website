@@ -23,6 +23,11 @@ import heart3 from "./components/heartscripts/hearscripts1 (3).png"
 import heart4 from "./components/heartscripts/hearscripts1 (4).png"
 import vault from "./components/heartscripts/notesvault.png";
 import colour from "./components/heartscripts/Palleteplay.png";
+import gps1 from "./components/gpsbasedtollsystemwebsite/gpsbased (1).png"
+import gps2 from "./components/gpsbasedtollsystemwebsite/gpsbased (2).png"
+import gps3 from "./components/gpsbasedtollsystemwebsite/gpsbased (3).png"
+import gps4 from "./components/gpsbasedtollsystemwebsite/gpsbased (4).png"
+import gps5 from "./components/gpsbasedtollsystemwebsite/gpsbased (5).png"
 function Projects() {
   // Define your images for the Carousel component
   const projectImages1 = [healthimg1, healthimg2, healthimg3, healthimg4, healthimg5];
@@ -42,7 +47,7 @@ function Projects() {
         <div className="container project_container">
               <ProjectComponents I1={projectImages1} I2={projectImages2} I3={projectImages4} H1="HealthCare-Website" H2="Password-Generator-Website" H3="Love-Letter-Website"/>
               <ProjectComponents I1={projectImages3} I2={projectImages5} I3={projectImages6} H1="Language-Translator-Website" H2="NoteVault"  H3="Color-Picker"/>
-              <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/>
+              <ProjectComponents I1={[gps1, gps2,gps3, gps4, gps5]} I2={[img1]} I3={[img1]} H1="GPS-TOLL-SYSTEM-WEBAPP" H2="Upcoming"  H3="Upcoming"/>
               <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/>
               <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/>
               <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/>
