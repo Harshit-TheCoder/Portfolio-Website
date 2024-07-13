@@ -17,13 +17,20 @@ import passwordimg3 from "./components/password_generator_website/password_gener
 import languageimg1 from "./components/language_translate_website/language_translator (1).png";
 import languageimg2 from "./components/language_translate_website/language_translator (2).png";
 import languageimg3 from "./components/language_translate_website/language_translator (3).png";
+import heart1 from "./components/heartscripts/hearscripts1 (1).png"
+import heart2 from "./components/heartscripts/hearscripts1 (2).png"
+import heart3 from "./components/heartscripts/hearscripts1 (3).png"
+import heart4 from "./components/heartscripts/hearscripts1 (4).png"
+import vault from "./components/heartscripts/notesvault.png";
+import colour from "./components/heartscripts/Palleteplay.png";
 function Projects() {
   // Define your images for the Carousel component
   const projectImages1 = [healthimg1, healthimg2, healthimg3, healthimg4, healthimg5];
   const projectImages2 = [passwordimg1, passwordimg2, passwordimg3];
   const projectImages3 = [ languageimg3,languageimg1, languageimg2,];
-  const projectImages4 = [img1];
-  
+  const projectImages4 = [heart1, heart2, heart3, heart4];
+  const projectImages5 = [vault];
+  const projectImages6 = [colour];
     return (
     <div>
       <Header />
@@ -33,8 +40,12 @@ function Projects() {
         <h1 className="project_heading" style={{   }}>My Projects:</h1>
         </center>
         <div className="container project_container">
-              <ProjectComponents I1={projectImages1} I2={projectImages2} I3={projectImages4} H1="HealthCare-Website" H2="Password-Generator-Website" H3="Random Image"/>
-              <ProjectComponents I1={projectImages3} I2={projectImages4} I3={projectImages4} H1="Language-Translator-Website" H2="Random Image"  H3="Random Image"/>
+              <ProjectComponents I1={projectImages1} I2={projectImages2} I3={projectImages4} H1="HealthCare-Website" H2="Password-Generator-Website" H3="Love-Letter-Website"/>
+              <ProjectComponents I1={projectImages3} I2={projectImages5} I3={projectImages6} H1="Language-Translator-Website" H2="NoteVault"  H3="Color-Picker"/>
+              <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/>
+              <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/>
+              <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/>
+              <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/>
         </div>
          </Main>
       <Footer />
