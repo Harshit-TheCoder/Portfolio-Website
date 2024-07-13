@@ -14,9 +14,6 @@ function Header(){
               <a className="nav-link list_items" aria-current="page" href="/">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/about">About Me</a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link" href="/contact">Contact Me</a>
             </li>
             <li className="nav-item">

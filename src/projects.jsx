@@ -47,7 +47,7 @@ function Projects() {
         <div className="container project_container">
               <ProjectComponents I1={projectImages1} I2={projectImages2} I3={projectImages4} H1="HealthCare-Website" H2="Password-Generator-Website" H3="Love-Letter-Website"/>
               <ProjectComponents I1={projectImages3} I2={projectImages5} I3={projectImages6} H1="Language-Translator-Website" H2="NoteVault"  H3="Color-Picker"/>
-              <ProjectComponents I1={[gps1, gps2,gps3, gps4, gps5]} I2={[img1]} I3={[img1]} H1="GPS-TOLL-SYSTEM-WEBAPP" H2="Upcoming"  H3="Upcoming"/>
+              <ProjectComponents I1={[img1]} I2={[img1]} I3={[gps1, gps2,gps3, gps4, gps5]} H1="Upcoming"  H2="Upcoming" H3="GPS-TOLL-SYSTEM-WEBAPP" />
               <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/>
               <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/>
               <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/>

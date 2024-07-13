@@ -44,7 +44,7 @@ function Footer() {
             <img src="image.png" alt="Logo" width="50px" className="footer-logo" />
           </div>
           <div className="col-12 col-md-4 text-center my-2 my-md-0">
-            <p className="mb-0">&copy; 2024 Portfolio Website</p>
+            <p className="mb-0" style={{color:"white"}}>&copy; 2024 Portfolio Website</p>
           </div>
           <div className="col-12 col-md-4 text-center text-md-right">
             <a href="https://www.instagram.com/harlalkaharshit/" className="mx-2"><img src="insta_icon.png" alt="Instagram" width="40px" /></a>
