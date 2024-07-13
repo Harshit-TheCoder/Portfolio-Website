@@ -1,8 +1,7 @@
 // Carousel.js
 import React, { useState } from 'react';
 import "../css/carouselLayout.css";
-import greaterthan from "./greater_than_icon.png";
-import lessthan from "./less_than_icon.png";
+
 
 const Carousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -21,7 +20,7 @@ const Carousel = ({ images }) => {
       <img src={images[currentIndex]} className="carousel_image_adjust" alt={`Slide ${currentIndex}`} />
       <br />
       <br />
-      <button onClick={prevSlide} className='button-left' style={{ marginRight:'400px'}}>👈</button>
+      <button onClick={prevSlide} className='button-left'>👈</button>
       <button onClick={nextSlide} className='button-right' >👉</button>
       
       </div>
@@ -31,4 +30,3 @@ const Carousel = ({ images }) => {
 
 export default Carousel;
 
-{/* <img src={lessthan} style={{width:"20px"}}/> */}

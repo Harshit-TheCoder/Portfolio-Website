@@ -11,11 +11,69 @@ h1,h2,h3, .subheading{
     padding: 5px;
 }
 .service-component{
-    margin-top: 15px;
+    width:400px;
+    height:300px;
+    margin: 20px;
+
     border-radius: 10%;
     z-index: 15;
     box-shadow: 5px 5px 5px 5px #888888;
     animation: pulse 4s infinite alternate; /* Animation properties */
+}
+
+@media (max-width: 288px){
+  .service-component{
+    width:350px;
+    height:250px;
+    margin: 20px;
+  }
+  .service-info{
+    font-size: 15px;
+  }
+}
+@media (min-width:289px) and (max-width:576px){
+  .service-component{
+    width:400px;
+    height:300px;
+    margin: 20px;
+  }
+}
+@media (min-width: 577px) and  (max-width: 767px) {
+  .service-component{
+    width:400px;
+    height:300px;
+    margin: 20px;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service-component{
+    width:400px;
+    height:300px;
+    margin: 15px;
+  }
+  .service-info{
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .service-component{
+    width:350px;
+    height:250px;
+    margin: 20px;
+  }
+  .service-info{
+    font-size: 13px;
+  }
+}
+@media (min-width: 1201px) {
+  .service-component{
+    width:400px;
+    height:300px;
+    margin: 20px;
+  }
 }
 .service-info{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

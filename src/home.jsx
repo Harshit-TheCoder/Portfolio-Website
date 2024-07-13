@@ -13,7 +13,7 @@ function Home(){
             <Main>
             <div className='container'>
               <div className='row'>
-              <div className='col-6 ' style={{ display:"flex", flexDirection:"column", height:"60vh", justifyContent:"center" , textAlign:"left"}}>
+              <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 welcome-info-div' style={{ display:"flex", flexDirection:"column", height:"60vh", justifyContent:"center" , textAlign:"left"}}>
                 <h1>Hello!</h1>
                 <h2>I am HARSHIT HARLALKA</h2>
                 <div className='wrapper'>
@@ -33,7 +33,7 @@ function Home(){
                 </div>
                 
                 </div>
-                <div className='col-6'>
+                <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 welcome-info-image'>
                     <MyImage />
                 </div>
               </div>

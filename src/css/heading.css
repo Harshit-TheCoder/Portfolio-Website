@@ -1,0 +1,35 @@
+
+@media (max-width: 288px){
+    .project-experience-heading{
+        font-size: 20px;
+    }
+}
+  @media (min-width:289px) and (max-width:576px){
+    .project-experience-heading{
+        font-size: 30px;
+    }
+  }
+  @media (min-width: 577px) and  (max-width: 767px) {
+    .project-experience-heading{
+        font-size: 30px;
+    }
+    
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .project-experience-heading{
+        font-size: 30px;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .project-experience-heading{
+        font-size: 40px;
+    }
+  }
+  @media (min-width: 1201px) {
+    .project-experience-heading{
+        font-size: 40px;
+    }
+  }
+  

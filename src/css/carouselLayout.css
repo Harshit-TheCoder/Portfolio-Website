@@ -1,11 +1,4 @@
-.carouselLayout{
-    display:grid !important;
-    grid-template-rows: 3 !important;
-    grid-template-columns: 3 !important;
-    gap: 5px;
-    margin:30px;
-    padding:10px;
-}
+
 .carousel_image_adjust{
     width:500px;
     height:350px;
@@ -15,6 +8,90 @@
     box-shadow: 5px 10px 8px 10px #888888;
     /* position: absolute; */
 }
+
+
+@media (max-width: 288px){
+  .carousel_image_adjust{
+    width:350px;
+    height:250px;
+  }
+  .button-left{
+    margin-left: 200px;
+    left:40px
+  }
+  .button-right{
+    right:80px;
+  }
+}
+@media (min-width:289px) and (max-width:576px){
+  .carousel_image_adjust{
+    width:350px;
+    height:250px;
+  }
+  .button-left{
+    margin-left: 200px;
+    left:40px
+  }
+  .button-right{
+    right:80px;
+  }
+}
+@media (min-width: 577px) and  (max-width: 767px) {
+  .carousel_image_adjust{
+    width:400px;
+    height:300px;
+  }
+  .button-left{
+    margin-left: 300px;
+    left:60px
+  }
+  .button-right{
+    right:80px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel_image_adjust{
+    width:400px;
+    height:300px;
+  }
+  .button-left{
+    margin-left: 300px;
+    left:60px
+  }
+  .button-right{
+    right:80px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .carousel_image_adjust{
+    width:450px;
+    height:300px;
+  }
+  .button-left{
+    margin-left: 350px;
+    left:80px
+  }
+  .button-right{
+    right:80px;
+  }
+}
+@media (min-width: 1201px) {
+  .carousel_image_adjust{
+    width:500px;
+    height:350px;
+  }
+  .button-left{
+    margin-left: 400px;
+    left:80px
+  }
+  .button-right{
+    right:80px;
+  }
+}
+
+
 .project_link{
     text-decoration: none;
     font-family: sans-serif;;
@@ -32,23 +109,9 @@
     position: relative;
   }
   
-  .button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  
-  .button-left {
-    left: 80px; /* Adjust this value as needed */
-  }
-  
-  .button-right {
-    right: 80px; /* Adjust this value as needed */
-  }
   .button-left, .button-right{
     border-radius: 40px;
     width:50px;
     height:50px;
     background-color: aquamarine;
   }
-  

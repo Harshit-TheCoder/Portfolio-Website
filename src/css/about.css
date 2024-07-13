@@ -1,0 +1,32 @@
+@media (max-width: 576px) {
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+        gap:45px;
+    }
+    /* .about-content-heading{
+        order:1;
+    } */
+    .about-content-div {
+        order: 1;
+    }
+    .about-content-image {
+        order: 2;
+    }
+}
+@media(min-width: 577px) and (max-width: 768px){
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 45px;
+    }
+    /* .about-content-heading{
+        order:1;
+    } */
+    .about-content-div {
+        order: 1;
+    }
+    .about-content-image {
+        order: 2;
+    }
+}

@@ -16,10 +16,10 @@ const ProjectCarousel = ({ images }) => {
 
   return (
     
-      <div className='button-container' style={{ height:"350px"}}>
-        <div style={{ height:"300px"}}><img src={images[currentIndex]} className="project_carousel_image_adjust" alt={`Slide ${currentIndex}`} /></div>
-        <div style={{display:"flex", flexDirection:"row",  height:"50px"}}>
-            <button onClick={prevSlide} className='leftbutton' style={{ marginRight:'300px'}}>👈</button>
+      <div className='button-container'>
+        <div><img src={images[currentIndex]} className="project_carousel_image_adjust" alt={`Slide ${currentIndex}`} /></div>
+        <div style={{display:"flex", flexDirection:"row"}} className='carousel-buttons'>
+            <button onClick={prevSlide} className='leftbutton'>👈</button>
             <button onClick={nextSlide} className='rightbutton' >👉</button>
             
         </div>

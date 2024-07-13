@@ -51,3 +51,16 @@ h1,h2,h3{
         margin: 0 -35px 0 35px;
     }
 }
+
+@media (max-width: 576px) {
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .welcome-info-div {
+        order: 1;
+    }
+    .welcome-info-image {
+        order: 2;
+    }
+}

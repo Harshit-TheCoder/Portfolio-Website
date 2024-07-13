@@ -35,3 +35,49 @@ ul{
     font-style: bold;
     font-size: 18px;
 }
+
+@media (max-width: 288px){
+    .scrollable-div{
+        height:300px;
+        width:100%;
+    }
+    
+}
+@media (min-width:289px) and (max-width:576px){
+  .scrollable-div{
+    height:300px;
+    width:100%;
+  }
+  
+}
+@media (min-width: 577px) and  (max-width: 767px) {
+  .scrollable-div{
+    height:500px;
+    width:100%;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .scrollable-div{
+    height:350px;
+    width:350px;
+  }
+  
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .scrollable-div{
+        height:500px;
+        width:500px;
+  }
+    
+}
+@media (min-width: 1201px) {
+  .scrollable-div{
+        height:500px;
+        width:500px;
+  }
+  
+}
+  
