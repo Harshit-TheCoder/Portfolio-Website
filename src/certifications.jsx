@@ -9,7 +9,7 @@ import aimlimg2 from "./components/AIML_course_certificates/aiml_course (2).png"
 import aimlimg3 from "./components/AIML_course_certificates/aiml_course (3).png";
 import aimlimg4 from "./components/AIML_course_certificates/aiml_course (4).png";
 import cimg from "./components/Courses/C Course.png";
-import cppimg from "./components/Courses/C++ Course.png"
+import cppimg from "./components/Courses/CPP Course.png"
 import pyimg from "./components/Courses/python_course.png"
 import webdevimg from "./components/Courses/WebDevelepment course.png"
 import coincent from "./components/Courses/Coincent.jpg";

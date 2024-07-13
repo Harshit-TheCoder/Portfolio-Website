@@ -27,10 +27,10 @@ function Home(){
                   <li><span>REACT-JS</span></li>
                 </ul>
                 </div>
-                <div>
+                {/* <div>
                   <a href="/login"><button className='btn btn-primary' style={{ marginRight:"30px"}}>Login</button></a>
                   <a href="/signup"><button className='btn btn-primary'>SignUp</button></a>
-                </div>
+                </div> */}
                 
                 </div>
                 <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 welcome-info-image'>
