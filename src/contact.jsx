@@ -27,11 +27,11 @@ function Home(){
                                 <a href="https://www.linkedin.com/in/harshit-harlalka-26b200233/"><img src="linkedin_logo.png" alt="Instagram logo" width="50px" /></a>
                             </div>
                             <div>
-                                <a href="https://github.com/Harshit-TheCoder"><img src="github.png" alt="Instagram logo" width="50px" /></a>
+                                <a href="#"><img src="github.png" alt="Instagram logo" width="50px" /></a>
                             </div>
                     </div>    
                 </div>
-
+                {/* https://github.com/Harshit-TheCoder */}
              </Main>
             <Footer />
         </div>
