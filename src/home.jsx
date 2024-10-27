@@ -26,7 +26,7 @@ import laptop from "./components/skills/laptopimage.svg"
 import "../src/css/home.css";
 function Home(){
     return(
-        <div style={{ height:"250vh"}}>
+        <div style={{ height:"260vh"}}>
             <Header/>
             <Main>
               <div className='container'>
