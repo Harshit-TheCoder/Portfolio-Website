@@ -77,23 +77,45 @@ function Home(){
               </div>
               <br /> <br /> <hr style={{ background:"darkblue", height:"3px"} }/> <br />
               <div className='container'>
+              <h2>Coding Platform Links:</h2>
                 <div className="row">
-                  <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 ' style={{display:"flex", flexDirection:"column"}}>
-                      <h2>Coding Platform Links:</h2>
-                      <div style={{display:"flex", flexDirection:"column", gap:"5px"}}>
-                          <div>
-                          <img src={leetcode} alt="" height="70px" style={{borderRadius:"50px"}}/>  Leetcode: <a href="https://leetcode.com/u/harlalkaharshit/">Leetcode Profile</a>
-                          </div>
-                          <div>
-                          <img src={codingninjas} alt="" height="70px" style={{borderRadius:"5px"}}/> Coding Ninjas:<a href="https://www.naukri.com/code360/profile/e09e17e2-f5aa-4cbb-b49e-190ef3c13b5c">Code Studio</a>
-                          </div>
-                          <div>
-                          <img src={hackerrank} alt="" height="70px" style={{borderRadius:"10px"}}/> HackerRank:<a href="https://www.hackerrank.com/profile/hh2044">HackerRank</a>
-                          </div>
-                          <div>
-                          <img src={codechef} alt="" height="70px" style={{borderRadius:"40px"}}/> CodeChef:<a href="https://www.codechef.com/users/adapt_goats_66">CodeChef</a>
-                          </div>
-                      </div>
+                  
+                  <div className='col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 ' style={{display:"flex", flexDirection:"column"}}>
+                  
+                    <center>
+                    
+                    <a href="https://leetcode.com/u/harlalkaharshit/">
+                    <img src={leetcode} alt="" height="70px" style={{borderRadius:"50px" ,width:"70px"}}/>
+                    </a>
+                      </center>
+                  </div>
+                  <div className='col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 ' style={{display:"flex", flexDirection:"column"}}>
+                    <center>
+                    
+                    
+                     <a href="https://www.naukri.com/code360/profile/e09e17e2-f5aa-4cbb-b49e-190ef3c13b5c">
+                     <img src={codingninjas} alt="" height="70px" style={{borderRadius:"5px" ,width:"120px"}}/>
+                     </a>
+                     </center>
+                  </div>
+                  <div className='col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 ' style={{display:"flex", flexDirection:"column"}}>
+                    <center>
+                     
+                    
+                    <a href="https://www.hackerrank.com/profile/hh2044">
+                    <img src={hackerrank} alt="" height="70px" style={{borderRadius:"10px" ,width:"70px"}}/>
+                    </a>
+                    </center>
+                  </div>
+                  <div className='col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 ' style={{display:"flex", flexDirection:"column"}}>
+                    <center>
+                     
+                    
+                    <a href="https://www.codechef.com/users/adapt_goats_66">
+                    <img src={codechef} alt="" height="70px" style={{borderRadius:"40px", width:"120px"}}/>
+                    </a>
+                    </center>
+
                   </div>
                 </div>
               </div>
