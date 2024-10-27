@@ -1,5 +1,5 @@
 import React from "react";
-import bgimg from "../components/harshit.jpg";
+import bgimg from "../components/harshitimage.png";
 import "../css/myimage.css";
 function MyImage(){
     return(

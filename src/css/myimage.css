@@ -2,9 +2,6 @@
   .myImage {
     /* width: 400px; */
     /* height: 500px; */
-    border-radius: 40%;
-    border: 3px solid #2c3e50;
-    box-shadow: 5px 10px 8px 10px #888888;
     position: sticky;
     animation: pulse 4s infinite alternate; /* Animation properties */
 }
