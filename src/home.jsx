@@ -43,7 +43,7 @@ function Home(){
                     <p>
                     These experiences have not only shaped my professional journey but also allowed me to develop a keen eye for Coding.
                     </p>
-                    
+                    <a href="https://drive.google.com/file/d/1OxTvq0Ar_oKVGMnFeQgKHOTcpNgZQQ93/view?usp=sharing" className="btn btn-info" style={{borderRadius:"40px", width:"100px", color:"maroon", border:"1px solid darkgreen"}}>Resume</a>
                   </div>
                 
                   <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 welcome-info-image'>

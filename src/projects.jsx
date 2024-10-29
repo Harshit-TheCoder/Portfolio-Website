@@ -6,6 +6,13 @@ import ProjectComponents from "./components/Project_Components";
 import "./css/carouselLayout.css";
 import "./css/projects.css";
 import img1 from "./components/img1.jpg";
+import javabite1 from "./components/JavaBite/Javabit (7).jpg";
+import javabite2 from "./components/JavaBite/Javabit (1).jpg";
+import javabite3 from "./components/JavaBite/Javabit (4).jpg";
+import javabite4 from "./components/JavaBite/Javabit (10).jpg";
+import javabite5 from "./components/JavaBite/Javabit (13).jpg";
+import javabite6 from "./components/JavaBite/Javabit (6).jpg";
+
 import healthimg1 from "./components/health_website_images/Health_Website_Preview_pic (1).png";
 import healthimg2 from "./components/health_website_images/Health_Website_Preview_pic (2).png";
 import healthimg3 from "./components/health_website_images/Health_Website_Preview_pic (3).png";
@@ -57,7 +64,7 @@ function Projects() {
               <ProjectComponents I1={projectImages1} I2={[covid]} I3={[gps1, gps2,gps3, gps4, gps5]} H1="HealthCare-Website"  H2="Covid19-Website" H3="GPS-TOLL-SYSTEM-WEBAPP" />
               <ProjectComponents I1={projectImages3} I2={projectImages5} I3={projectImages6} H1="Language-Translator-Website" H2="NoteVault"  H3="Color-Picker"/>
               <ProjectComponents I1={Images} I2={projectImages2} I3={projectImages4} H1="SRM-Elab-Website" H2="Password-Generator-Website" H3="Love-Letter-Website"/>
-              {/* <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/> */}
+              <ProjectComponents I1={[img1]} I2={[img1]} I3={[javabite1, javabite2, javabite3, javabite4, javabite5, javabite6]} H1="Upcoming" H2="Upcoming"  H3="JavaBite"/>
               {/* <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/> */}
               {/* <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/> */}
         </div>
