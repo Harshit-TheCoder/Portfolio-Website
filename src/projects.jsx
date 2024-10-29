@@ -28,6 +28,14 @@ import gps2 from "./components/gpsbasedtollsystemwebsite/gpsbased (2).png"
 import gps3 from "./components/gpsbasedtollsystemwebsite/gpsbased (3).png"
 import gps4 from "./components/gpsbasedtollsystemwebsite/gpsbased (4).png"
 import gps5 from "./components/gpsbasedtollsystemwebsite/gpsbased (5).png"
+import Elab1 from "./components/srm_elab_images/elab (1).png";
+import Elab2 from "./components/srm_elab_images/elab (2).png";
+import Elab3 from "./components/srm_elab_images/elab (3).png";
+import Elab4 from "./components/srm_elab_images/elab (4).png";
+import Elab5 from "./components/srm_elab_images/elab (5).png";
+import Elab6 from "./components/srm_elab_images/elab (6).png";
+import Elab7 from "./components/srm_elab_images/elab (7).png";
+import covid from "./components/Covid19-Website.png";
 function Projects() {
   // Define your images for the Carousel component
   const projectImages1 = [healthimg1, healthimg2, healthimg3, healthimg4, healthimg5];
@@ -36,6 +44,7 @@ function Projects() {
   const projectImages4 = [heart1, heart2, heart3, heart4];
   const projectImages5 = [vault];
   const projectImages6 = [colour];
+  const Images = [Elab1,Elab2,Elab3,Elab4,Elab5,Elab6,Elab7];
     return (
     <div>
       <Header />
@@ -45,9 +54,9 @@ function Projects() {
         <h1 className="project_heading" style={{   }}>My Projects:</h1>
         </center>
         <div className="container project_container">
-              <ProjectComponents I1={projectImages1} I2={projectImages2} I3={projectImages4} H1="HealthCare-Website" H2="Password-Generator-Website" H3="Love-Letter-Website"/>
+              <ProjectComponents I1={projectImages1} I2={[covid]} I3={[gps1, gps2,gps3, gps4, gps5]} H1="HealthCare-Website"  H2="Covid19-Website" H3="GPS-TOLL-SYSTEM-WEBAPP" />
               <ProjectComponents I1={projectImages3} I2={projectImages5} I3={projectImages6} H1="Language-Translator-Website" H2="NoteVault"  H3="Color-Picker"/>
-              <ProjectComponents I1={[img1]} I2={[img1]} I3={[gps1, gps2,gps3, gps4, gps5]} H1="Upcoming"  H2="Upcoming" H3="GPS-TOLL-SYSTEM-WEBAPP" />
+              <ProjectComponents I1={Images} I2={projectImages2} I3={projectImages4} H1="SRM-Elab-Website" H2="Password-Generator-Website" H3="Love-Letter-Website"/>
               {/* <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/> */}
               {/* <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/> */}
               {/* <ProjectComponents I1={[img1]} I2={[img1]} I3={[img1]} H1="Upcoming" H2="Upcoming"  H3="Upcoming"/> */}

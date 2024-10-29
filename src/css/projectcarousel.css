@@ -1,13 +1,15 @@
 .project_carousel_image_adjust {
-  width: 400px;
+  width: 390px;
   height: 300px;
   border-radius: 15%;
   border: 2px solid maroon;
-  z-index: 5;
-  box-shadow: 5px 10px 8px 10px #888888;
+  z-index: 4;
+  /* box-shadow: 5px 10px 8px 10px #888888; */
   /* animation: pendulumSwing 6s infinite; */
   /* transform-origin: center bottom; */
 }
+
+
 @media (max-width: 288px) {
   .project_carousel_image_adjust {
     width: 300px;
@@ -16,6 +18,7 @@
   .button-container {
     height: 250px;
   }
+  
   .leftbutton {
     margin-left: 100px;
     left: 40px;

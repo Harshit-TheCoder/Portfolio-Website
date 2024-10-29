@@ -22,6 +22,9 @@ import codechef from "./components/Codechef.png";
 import codingninjas from "./components/CodingNinjas.png";
 import leetcode from "./components/leetcodeimage.jpeg";
 import flask from "./components/skills/flask.png";
+import figma from "./components/skills/figma.png";
+import typescript from "./components/skills/typescript.png";
+import tailwind from "./components/skills/tailwind.png";
 import laptop from "./components/skills/laptopimage.svg"
 import "../src/css/home.css";
 function Home(){
@@ -65,12 +68,15 @@ function Home(){
                         <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={react} alt="" style={{width:"50px"}}/>ReactJS</div>
                         <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={html} alt="" style={{width:"50px"}}/>HTML</div>
                         <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={css} alt="" style={{width:"50px"}}/>CSS</div>
+                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={tailwind} alt="" style={{width:"50px"}}/>Tailwind CSS</div>
                         <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={js} alt="" style={{width:"50px"}}/>Javascript</div>
+                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={typescript} alt="" style={{width:"50px"}}/>Typescript</div>
                         <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={nodejs} alt="" style={{width:"50px"}}/>NodeJS</div>
                         <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={sql} alt="" style={{width:"50px"}}/>SQL</div>
                         <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={git} alt="" style={{width:"50px"}}/>GIT</div>
                         <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={flask} alt="" style={{width:"50px"}}/>Flask</div>
                         <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={ml} alt="" style={{width:"50px"}}/>ML</div>
+                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={figma} alt="" style={{width:"50px"}}/>Figma</div>
                     </div>
                   </div>
                 </div>

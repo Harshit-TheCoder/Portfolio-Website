@@ -19,10 +19,12 @@ const ProjectCarousel = ({ images }) => {
       <div className='button-container'>
         <div><img src={images[currentIndex]} className="project_carousel_image_adjust" alt={`Slide ${currentIndex}`} /></div>
         <div style={{display:"flex", flexDirection:"row"}} className='carousel-buttons'>
-            <button onClick={prevSlide} className='leftbutton'>👈</button>
-            <button onClick={nextSlide} className='rightbutton' >👉</button>
+          {/* <center><button className='carousel-button'>View</button></center> */}
+          <button onClick={prevSlide} className='leftbutton'>👈</button>
+          <button onClick={nextSlide} className='rightbutton' >👉</button>
             
         </div>
+        
       </div>
       
   );
