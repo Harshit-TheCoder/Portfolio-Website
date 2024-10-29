@@ -9,7 +9,7 @@ function Services(){
         <div>
             <Header />
             <Main>
-            <center><h1>Services</h1></center>
+            <center><h1>Skills</h1></center>
             
             <div className='container' >
                <ServiceComponent />

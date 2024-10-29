@@ -4,7 +4,7 @@
   border-radius: 15%;
   border: 2px solid maroon;
   z-index: 4;
-  /* box-shadow: 5px 10px 8px 10px #888888; */
+  box-shadow: 5px 10px 8px 10px #888888;
   /* animation: pendulumSwing 6s infinite; */
   /* transform-origin: center bottom; */
 }

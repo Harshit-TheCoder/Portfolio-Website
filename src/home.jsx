@@ -29,7 +29,7 @@ import laptop from "./components/skills/laptopimage.svg"
 import "../src/css/home.css";
 function Home(){
     return(
-        <div style={{ height:"260vh"}}>
+        <div style={{ height:"280vh"}}>
             <Header/>
             <Main>
               <div className='container'>
@@ -58,7 +58,7 @@ function Home(){
                     <img src={laptop} className="svgimage" alt="SVG Image" width="500" height="500" />
                   </div>
                   <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3'>
-                    <h2>My Skills: </h2>
+                    <h2>My TechStack: </h2>
                     <br />
                     <div class="grid-container">
                         <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={cpplang} alt="" style={{width:"50px"}}/>C++</div>
