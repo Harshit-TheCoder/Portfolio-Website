@@ -1,8 +1,9 @@
 
   .myImage {
-    /* width: 400px; */
-    /* height: 500px; */
+    width: 200px;
+    height: 300px;
     position: sticky;
+
     animation: pulse 4s infinite alternate; /* Animation properties */
 }
 

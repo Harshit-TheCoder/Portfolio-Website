@@ -5,6 +5,7 @@ import Footer from "./components/footer";
 import MyImage from "./components/myimage";
 // Import your local image
 // import bgimg from "./components/myimage.jpg";
+
 import cpplang from "./components/skills/cpplang.png";
 import clang from "./components/skills/clang.png";
 import pylang from "./components/skills/pylang.png";
@@ -20,6 +21,7 @@ import git from "./components/skills/git.png";
 import hackerrank from "./components/hackerrank.png";
 import codechef from "./components/Codechef.png";
 import codingninjas from "./components/CodingNinjas.png";
+import codeforces from "./components/Codeforceslogo.jpg";
 import leetcode from "./components/leetcodeimage.jpeg";
 import flask from "./components/skills/flask.png";
 import figma from "./components/skills/figma.png";
@@ -29,7 +31,7 @@ import laptop from "./components/skills/laptopimage.svg"
 import "../src/css/home.css";
 function Home(){
     return(
-        <div style={{ height:"280vh"}}>
+        <div style={{ height:"250vh"}}>
             <Header/>
             <Main>
               <div className='container'>
@@ -43,7 +45,7 @@ function Home(){
                     <p>
                     These experiences have not only shaped my professional journey but also allowed me to develop a keen eye for Coding.
                     </p>
-                    <a href="https://drive.google.com/file/d/1OxTvq0Ar_oKVGMnFeQgKHOTcpNgZQQ93/view?usp=sharing" className="btn btn-info" style={{borderRadius:"40px", width:"100px", color:"maroon", border:"1px solid darkgreen"}}>Resume</a>
+                    <a href="https://drive.google.com/file/d/1jY4gm989BqemAM5UzDYLDHxU3GPvPs7f/view?usp=sharing" className='btn btn-info' style={{ width:"100px", color:"maroon", border:"1px solid darkgreen"}}>Resume</a>
                   </div>
                 
                   <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 welcome-info-image'>
@@ -60,74 +62,89 @@ function Home(){
                   <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3'>
                     <h2>My TechStack: </h2>
                     <br />
-                    <div class="grid-container">
-                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={cpplang} alt="" style={{width:"50px"}}/>C++</div>
-                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={clang} alt="" style={{width:"50px"}}/>C</div>
-                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={pylang} alt="" style={{width:"50px"}}/>Python</div>
-                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={java} alt="" style={{width:"50px"}}/>Java</div>
-                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={react} alt="" style={{width:"50px"}}/>ReactJS</div>
-                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={html} alt="" style={{width:"50px"}}/>HTML</div>
-                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={css} alt="" style={{width:"50px"}}/>CSS</div>
-                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={tailwind} alt="" style={{width:"50px"}}/>Tailwind CSS</div>
-                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={js} alt="" style={{width:"50px"}}/>Javascript</div>
-                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={typescript} alt="" style={{width:"50px"}}/>Typescript</div>
-                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={nodejs} alt="" style={{width:"50px"}}/>NodeJS</div>
-                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={sql} alt="" style={{width:"50px"}}/>SQL</div>
-                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={git} alt="" style={{width:"50px"}}/>GIT</div>
-                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={flask} alt="" style={{width:"50px"}}/>Flask</div>
-                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={ml} alt="" style={{width:"50px"}}/>ML</div>
-                        <div style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={figma} alt="" style={{width:"50px"}}/>Figma</div>
+                    <div className="grid-container">
+                        <div className="icon-container" style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={cpplang} alt="" style={{width:"50px"}}/>C++</div>
+                        <div className="icon-container" style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={clang} alt="" style={{width:"50px"}}/>C</div>
+                        <div className="icon-container" style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={pylang} alt="" style={{width:"50px"}}/>Python</div>
+                        <div className="icon-container" style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={java} alt="" style={{width:"50px"}}/>Java</div>
+                        <div className="icon-container" style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={react} alt="" style={{width:"50px"}}/>ReactJS</div>
+                        <div className="icon-container" style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={html} alt="" style={{width:"50px"}}/>HTML</div>
+                        <div className="icon-container" style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={css} alt="" style={{width:"50px"}}/>CSS</div>
+                        <div className="icon-container" style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={tailwind} alt="" style={{width:"50px"}}/>Tailwind CSS</div>
+                        <div className="icon-container" style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={js} alt="" style={{width:"50px"}}/>Javascript</div>
+                        <div className="icon-container" style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={typescript} alt="" style={{width:"50px"}}/>Typescript</div>
+                        <div className="icon-container" style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={nodejs} alt="" style={{width:"50px"}}/>NodeJS</div>
+                        <div className="icon-container" style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={sql} alt="" style={{width:"50px"}}/>SQL</div>
+                        <div className="icon-container" style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={git} alt="" style={{width:"50px"}}/>GIT</div>
+                        <div className="icon-container" style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={flask} alt="" style={{width:"50px"}}/>Flask</div>
+                        <div className="icon-container" style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={ml} alt="" style={{width:"50px"}}/>ML</div>
+                        <div className="icon-container" style={{display:"flex", flexDirection:"column" ,color:"green"}}><img src={figma} alt="" style={{width:"50px"}}/>Figma</div>
                     </div>
                   </div>
                 </div>
               </div>
+
               <br /> <br /> <hr style={{ background:"darkblue", height:"3px"} }/> <br />
               <div className='container'>
-              <h2>Coding Platform Links:</h2>
+                <h2>Coding Platform Links:</h2>
                 <div className="row">
                   
-                  <div className='col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 ' style={{display:"flex", flexDirection:"column"}}>
+                  <div className='col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 ' style={{display:"flex", flexDirection:"column"}}>
                   
                     <center>
                     
                     <a href="https://leetcode.com/u/harlalkaharshit/">
-                    <img src={leetcode} alt="" height="70px" style={{borderRadius:"50px" ,width:"70px"}}/>
+                    <img src={leetcode} alt="" style={{height:"160px" ,width:"100%", borderRadius:"20px"}}/>
                     </a>
                       </center>
                   </div>
-                  <div className='col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 ' style={{display:"flex", flexDirection:"column"}}>
+                  <div className='col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 ' style={{display:"flex", flexDirection:"column"}}>
                     <center>
                     
                     
                      <a href="https://www.naukri.com/code360/profile/e09e17e2-f5aa-4cbb-b49e-190ef3c13b5c">
-                     <img src={codingninjas} alt="" height="70px" style={{borderRadius:"5px" ,width:"120px"}}/>
+                     <img src={codingninjas} alt=""  style={{height:"160px" ,width:"100%", borderRadius:"20px"}}/>
                      </a>
                      </center>
                   </div>
-                  <div className='col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 ' style={{display:"flex", flexDirection:"column"}}>
+                  <div className='col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 ' style={{display:"flex", flexDirection:"column"}}>
                     <center>
                      
                     
                     <a href="https://www.hackerrank.com/profile/hh2044">
-                    <img src={hackerrank} alt="" height="70px" style={{borderRadius:"10px" ,width:"70px"}}/>
+                    <img src={hackerrank} alt=""  style={{height:"160px" ,width:"100%", borderRadius:"20px"}}/>
                     </a>
                     </center>
                   </div>
-                  <div className='col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 ' style={{display:"flex", flexDirection:"column"}}>
+                  <div className='col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 ' style={{display:"flex", flexDirection:"column"}}>
                     <center>
                      
                     
                     <a href="https://www.codechef.com/users/adapt_goats_66">
-                    <img src={codechef} alt="" height="70px" style={{borderRadius:"40px", width:"120px"}}/>
+                    <img src={codechef} alt=""  style={{height:"160px" ,width:"100%", borderRadius:"20px"}}/>
+                    </a>
+                    </center>
+
+                  </div>
+                  <div className='col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 ' style={{display:"flex", flexDirection:"column"}}>
+                    <center>
+                     
+                    
+                    <a href="https://codeforces.com/profile/Harshit-TheCoder">
+                    <img src={codeforces} alt=""  style={{height:"160px" ,width:"100%", borderRadius:"20px"}}/>
                     </a>
                     </center>
 
                   </div>
                 </div>
               </div>
+
+              
             </Main>
             <Footer />
         </div>
+
+
     );
 }
 

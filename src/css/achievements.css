@@ -4,6 +4,9 @@
     row-gap: 20px; /* Gap between grid items */
 }
 
+.achievements-container{
+    height: auto;
+}
 .inner-div-1, .inner-div-2 {
     padding: 10px;
 }

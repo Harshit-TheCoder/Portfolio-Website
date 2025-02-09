@@ -6,7 +6,7 @@ import "../src/css/services.css";
 import ServiceComponent from "./components/service_component";
 function Services(){
     return(
-        <div>
+        <>
             <Header />
             <Main>
             <center><h1>Skills</h1></center>
@@ -16,7 +16,7 @@ function Services(){
             </div>
             </Main>
             <Footer />
-        </div>
+        </>
         
     );
 }

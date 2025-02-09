@@ -12,8 +12,8 @@
     align-items: center;
     justify-content: center;
     gap:35px;
-    position: absolute; /* Position the div */
-    top: 25%; /* Position from the top */
+    position: absolute; 
+    top: 25%; 
     left: 7.5%;
     width:80%;
     z-index: 10;

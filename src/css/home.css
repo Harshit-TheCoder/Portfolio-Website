@@ -13,6 +13,25 @@
     padding: 10px;
 }
 
+
+@keyframes jump {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Class that triggers the animation */
+  .icon-container.jump {
+    animation: jump 0.5s ease;
+  }
+
+  
 p{
     color:crimson;
     font-weight: 500;
