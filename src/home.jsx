@@ -110,7 +110,7 @@ function Home(){
                                     </div>
                                     <div>
                                     <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
-                                    <Viewer fileUrl="/OnestopOfferLetter.pdf" />
+                                    <Viewer fileUrl="/OneStopOfferLetter.pdf" />
                                   </Worker>
                                     {/* <a href="https://drive.google.com/file/d/1CKCK8ZO5Gl3PEmjC911wftRs3h3bcZCS/view?usp=sharing" className='btn btn-link'>OneStop Offer Letter</a> */}
                                       </div>
@@ -124,7 +124,7 @@ function Home(){
                                     </div>
                                     <div>
                                     <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
-                                    <Viewer fileUrl="/OasisInfobyteOfferLetter.pdf" />
+                                    <Viewer fileUrl="/OasisInfobByteOfferLetter.pdf" />
                                   </Worker>
                                     {/* <a href="https://drive.google.com/file/d/1NInAJYjcuRvESy9xRISaQtbXl7j-MKzT/view?usp=sharing" className='btn btn-link'>Oasis Infobyte Offer Letter</a> */}
                                     </div>
