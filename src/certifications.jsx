@@ -35,6 +35,7 @@ import genai1 from "./components/Courses/GenAI1.png";
 import genai2 from "./components/Courses/GenAI2.png";
 import nextjs from "./components/Courses/NextJS.png";
 import mldlnlp from "./components/Courses/NLP.png";
+import flipkart from "./components/Courses/flipkart.png";
 let images=[aimlimg4,aimlimg1,aimlimg2,aimlimg3];
 let heading, content;
 function Certifications(){
@@ -56,7 +57,8 @@ function Certifications(){
                                                                                                                 "Additionally I have also made some amazing games using tkinter module, performed WebScraping and practised MachineLearning using Tensorflow module."}/>
                     <AchievementsComponent images={[webdevimg]} heading={"Full Stack Web Development Bootcamp"} content={"I had successfully completed the Bootcamp on FullStack Web Development from Udemy. The Bootcamp helped me to master HTML,CSS,Javascript and Node.js for backend including React."+"From this Bootcamp I have made some websites on my own including my own Portfolio Website which u are using now."}/>
                     <AchievementsComponent images={[coincent]} heading={"Coincent ML Course"} content={"I had successfully completed the course on Machine Learning organized by IIT Madras and Coincent. The course has exceptional content and it helped me a lot in refining my knowledge about the subject."}/>
-                    
+                    <AchievementsComponent images={[flipkart]} heading={'FlipKart Hackathon'} content={'Above is the certificate for participating in the Flipkart Hackathon'} />
+
                     <AchievementsComponent images={[oneStop1, oneStop2]} heading={'1Stop Training and Internship'} content={'Above are the two Certificates for the Onestop Fronted Web Development Training and Internship Program'} />
                     <AchievementsComponent images={[teachnook1, teachnook2]} heading={'Teachnook Training and Internship'} content={'Above are the two Certificates for the Teachnook Training and Internship Program in Machine Learning Domain'} />
                     <AchievementsComponent images={[hackerrank]} heading={'HackerRank Java Certification'} content={'Above is the HackerRank Java Basic Certification'} />
@@ -65,8 +67,8 @@ function Certifications(){
                     <AchievementsComponent images={[insta, insta2, insta3, insta4]} heading={"Instagram Auth Clone Bootcamp"} content={'Here are the certificates I got after being a part of Instagram Auth Clone Bootcamp organized by DevTown'} />
                     <AchievementsComponent images={[oyo, oyo2, oyo3 , oyo4]} heading={"Oyo Object Detection Bootcamp"} content={'Here are the certificates I got after being a part of Oyo Object Detection Bootcamp organized by DevTown'} />
                     <AchievementsComponent images={[mech1, mech2]} heading={'SRM Mechanical Workshop'} content={'Above are the two Mechanical Workshop Competition Certificates that I won after participating at SRM. I was ranked 2nd in the two competitions respectively'} />
+                    
                     {/* <AchievementsComponent images={[mech1, mech2]} heading={'SRM Mechanical Workshop'} content={'Above are the two Mechanical Workshop Competition Certificates that I won after participating at SRM. I was ranked 2nd in the two competitions respectively'} />
-                    <AchievementsComponent images={[mech1, mech2]} heading={'SRM Mechanical Workshop'} content={'Above are the two Mechanical Workshop Competition Certificates that I won after participating at SRM. I was ranked 2nd in the two competitions respectively'} />
                      */}
                     </ol>
                     <div style={{height: "100px"}}>

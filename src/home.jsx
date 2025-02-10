@@ -46,12 +46,63 @@ function Home(){
                     These experiences have not only shaped my professional journey but also allowed me to develop a keen eye for Coding.
                     </p>
                     <a href="https://drive.google.com/file/d/1jY4gm989BqemAM5UzDYLDHxU3GPvPs7f/view?usp=sharing" className='btn btn-info' style={{ width:"100px", color:"maroon", border:"1px solid darkgreen"}}>Resume</a>
+                    <br />
+                    <a href="https://drive.google.com/file/d/1jY4gm989BqemAM5UzDYLDHxU3GPvPs7f/view?usp=sharing" type="button" className='btn btn-info' data-bs-toggle="modal" data-bs-target="#exampleModal"
+                     style={{ width:"200px", color:"maroon", border:"1px solid darkgreen"}}>
+                      Offer Letters
+                    </a>
+
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Offer Letters</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div className="container">
+                                  <div className="row">
+                                    <h3>Appreciation Letter</h3>
+                                    <iframe src="/AppreciationLetter.pdf" width="90%" height="600px" frameborder="0"></iframe>
+                                  </div>
+                                  <br /><br />
+                                  <div className="row">
+                                    <h3>Eduversity Letter of Recommendation</h3>
+                                    <iframe src="/EduversityLOR.pdf" width="90%" height="600px" frameborder="0"></iframe>
+                                  </div>
+                                  <br /><br />
+                                  <div className="row">
+                                    <h3>Coincent Offer Letter</h3>
+                                    <iframe src="/CoincentOfferLetter.pdf" width="90%" height="600px" frameborder="0"></iframe>
+                                  </div>
+                                  <br /><br />
+                                  <div className="row">
+                                    <h3>OneStop Offer Letter</h3>
+                                    <iframe src="/OneStopOfferLetter.pdf" width="90%" height="600px" frameborder="0"></iframe>
+                                  </div>
+                                  <br /><br />
+                                  <div className="row">
+                                    <h3>Oasis Infobyte Letter</h3>
+                                    <iframe src="/OasisInfoByteOfferLetter.pdf" width="90%" height="600px" frameborder="0"></iframe>
+                                  </div>
+                                </div>
+                                
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
                 
                   <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 welcome-info-image'>
                       <center><MyImage /></center> 
                   </div>
                 </div>
+              </div>
+              <div className="container">
+                <div className="row" style={{width:"60px"}}></div>
               </div>
                   <br /> <br /> <hr style={{ background:"darkblue", height:"3px"} }/> <br />
               <div className='container'>
