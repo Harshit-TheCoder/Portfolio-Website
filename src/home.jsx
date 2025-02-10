@@ -124,7 +124,7 @@ function Home(){
                                     </div>
                                     <div>
                                     <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
-                                    <Viewer fileUrl="/OasisInfobByteOfferLetter.pdf" />
+                                    <Viewer fileUrl="/OasisInfoByteOfferLetter.pdf" />
                                   </Worker>
                                     {/* <a href="https://drive.google.com/file/d/1NInAJYjcuRvESy9xRISaQtbXl7j-MKzT/view?usp=sharing" className='btn btn-link'>Oasis Infobyte Offer Letter</a> */}
                                     </div>
