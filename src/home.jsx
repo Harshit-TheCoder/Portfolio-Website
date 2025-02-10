@@ -27,11 +27,13 @@ import flask from "./components/skills/flask.png";
 import figma from "./components/skills/figma.png";
 import typescript from "./components/skills/typescript.png";
 import tailwind from "./components/skills/tailwind.png";
-import laptop from "./components/skills/laptopimage.svg"
+import laptop from "./components/skills/laptopimage.svg";
+import { Worker, Viewer } from "@react-pdf-viewer/core";
+import "@react-pdf-viewer/core/lib/styles/index.css";
 import "../src/css/home.css";
 function Home(){
     return(
-        <div style={{ height:"250vh"}}>
+        <div style={{ height:"auto"}}>
             <Header/>
             <Main>
               <div className='container'>
@@ -47,7 +49,7 @@ function Home(){
                     </p>
                     <a href="https://drive.google.com/file/d/1jY4gm989BqemAM5UzDYLDHxU3GPvPs7f/view?usp=sharing" className='btn btn-info' style={{ width:"100px", color:"maroon", border:"1px solid darkgreen"}}>Resume</a>
                     <br />
-                    <a href="https://drive.google.com/file/d/1jY4gm989BqemAM5UzDYLDHxU3GPvPs7f/view?usp=sharing" type="button" className='btn btn-info' data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    <a href="#" type="button" className='btn btn-info' data-bs-toggle="modal" data-bs-target="#exampleModal"
                      style={{ width:"200px", color:"maroon", border:"1px solid darkgreen"}}>
                       Offer Letters
                     </a>
@@ -62,28 +64,87 @@ function Home(){
                             <div class="modal-body">
                                 <div className="container">
                                   <div className="row">
-                                    <h3>Appreciation Letter</h3>
-                                    <iframe src="/AppreciationLetter.pdf" width="90%" height="600px" frameborder="0"></iframe>
+                                  <div>
+                                      <h3>Appreciation Letter</h3>
+                                    </div>
+                                    <div>
+                                    <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
+                                    <Viewer fileUrl="/AppreciationLetter.pdf" />
+                                  </Worker>
+                                    </div>
+                                  
+                                    {/* <a href="https://drive.google.com/file/d/14tqxNYgSLR4AQgEl6jBuEe0AG9Rs_1ma/view?usp=sharing" className='btn btn-link'>Appreciation Letter</a> */}
                                   </div>
                                   <br /><br />
                                   <div className="row">
-                                    <h3>Eduversity Letter of Recommendation</h3>
-                                    <iframe src="/EduversityLOR.pdf" width="90%" height="600px" frameborder="0"></iframe>
+                                  <div>
+                                      <h3>Eduversity Letter of Recommendation</h3>
+                                    </div>
+                                    <div>
+                                    {/* <a href="https://drive.google.com/file/d/1S-Savkb24LorBfAXKMhInWBDJ7TE4sbS/view?usp=sharing" className='btn btn-link'>Eduversity Letter of Recommendation</a> */}
+                                    <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
+                                    <Viewer fileUrl="/EduversityLOR.pdf" />
+                                  </Worker>
+                                    </div>
+                                    
+                                    
                                   </div>
                                   <br /><br />
                                   <div className="row">
-                                    <h3>Coincent Offer Letter</h3>
-                                    <iframe src="/CoincentOfferLetter.pdf" width="90%" height="600px" frameborder="0"></iframe>
+                                  <div>
+                                      <h3>Coincent Offer Letter</h3>
+                                    </div>
+                                    <div>
+                                    {/* <a href="https://drive.google.com/file/d/1x0QQxYhXCyjlXkd8n27xy-IlUfdGGSCc/view?usp=sharing" className='btn btn-link'>Coincent Offer Letter</a> */}
+                                    <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
+                                    <Viewer fileUrl="/CoincentOfferLetter.pdf" />
+                                  </Worker>
+                                      </div>
+                                    
+                                    
                                   </div>
                                   <br /><br />
                                   <div className="row">
-                                    <h3>OneStop Offer Letter</h3>
-                                    <iframe src="/OneStopOfferLetter.pdf" width="90%" height="600px" frameborder="0"></iframe>
+                                  <div>
+                                      <h3>OneStop Offer Letter</h3>
+                                    </div>
+                                    <div>
+                                    <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
+                                    <Viewer fileUrl="/OnestopOfferLetter.pdf" />
+                                  </Worker>
+                                    {/* <a href="https://drive.google.com/file/d/1CKCK8ZO5Gl3PEmjC911wftRs3h3bcZCS/view?usp=sharing" className='btn btn-link'>OneStop Offer Letter</a> */}
+                                      </div>
+                                    
+                                    
                                   </div>
                                   <br /><br />
                                   <div className="row">
-                                    <h3>Oasis Infobyte Letter</h3>
-                                    <iframe src="/OasisInfoByteOfferLetter.pdf" width="90%" height="600px" frameborder="0"></iframe>
+                                    <div>
+                                      <h3>Oasis Infobyte Offer Letter</h3>
+                                    </div>
+                                    <div>
+                                    <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
+                                    <Viewer fileUrl="/OasisInfobyteOfferLetter.pdf" />
+                                  </Worker>
+                                    {/* <a href="https://drive.google.com/file/d/1NInAJYjcuRvESy9xRISaQtbXl7j-MKzT/view?usp=sharing" className='btn btn-link'>Oasis Infobyte Offer Letter</a> */}
+                                    </div>
+                                    
+                                    
+                                  </div>
+
+                                  <br /><br />
+                                  <div className="row">
+                                    <div>
+                                      <h3>Teachnook Offer Letter</h3>
+                                    </div>
+                                    <div>
+                                      <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
+                                      <Viewer fileUrl="/TeachnookOfferLetter.pdf" />
+                                    </Worker>
+                                    {/* <a href="https://drive.google.com/file/d/1G--bIcUNSialJ37KZz0vwHlVin30wm-y/view?usp=sharing" className='btn btn-link'>Teachnook Offer Letter</a> */}
+                                    </div>
+                                    
+                                    
                                   </div>
                                 </div>
                                 
