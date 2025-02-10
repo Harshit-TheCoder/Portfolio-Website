@@ -63,20 +63,20 @@ function Home(){
                             </div>
                             <div class="modal-body">
                                 <div className="container">
-                                  <div className="row">
-                                  <div>
+                                  <div className="row" style={{display:"flex",  flexDirection:"column"}}>
+                                    <div>
                                       <h3>Appreciation Letter</h3>
                                     </div>
                                     <div>
-                                    <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
-                                    <Viewer fileUrl="/AppreciationLetter.pdf" />
-                                  </Worker>
+                                      <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
+                                        <Viewer fileUrl="/AppreciationLetter.pdf" />
+                                      </Worker>
                                     </div>
                                   
                                     {/* <a href="https://drive.google.com/file/d/14tqxNYgSLR4AQgEl6jBuEe0AG9Rs_1ma/view?usp=sharing" className='btn btn-link'>Appreciation Letter</a> */}
                                   </div>
                                   <br /><br />
-                                  <div className="row">
+                                  <div className="row"  style={{display:"flex",  flexDirection:"column"}}>
                                   <div>
                                       <h3>Eduversity Letter of Recommendation</h3>
                                     </div>
@@ -90,7 +90,7 @@ function Home(){
                                     
                                   </div>
                                   <br /><br />
-                                  <div className="row">
+                                  <div className="row"  style={{display:"flex",  flexDirection:"column"}}>
                                   <div>
                                       <h3>Coincent Offer Letter</h3>
                                     </div>
@@ -104,7 +104,7 @@ function Home(){
                                     
                                   </div>
                                   <br /><br />
-                                  <div className="row">
+                                  <div className="row"  style={{display:"flex",  flexDirection:"column"}}>
                                   <div>
                                       <h3>OneStop Offer Letter</h3>
                                     </div>
@@ -118,7 +118,7 @@ function Home(){
                                     
                                   </div>
                                   <br /><br />
-                                  <div className="row">
+                                  <div className="row"  style={{display:"flex",  flexDirection:"column"}}>
                                     <div>
                                       <h3>Oasis Infobyte Offer Letter</h3>
                                     </div>
@@ -133,7 +133,7 @@ function Home(){
                                   </div>
 
                                   <br /><br />
-                                  <div className="row">
+                                  <div className="row"  style={{display:"flex",  flexDirection:"column"}}>
                                     <div>
                                       <h3>Teachnook Offer Letter</h3>
                                     </div>
