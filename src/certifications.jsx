@@ -36,6 +36,15 @@ import genai2 from "./components/Courses/GenAI2.png";
 import nextjs from "./components/Courses/NextJS.png";
 import mldlnlp from "./components/Courses/NLP.png";
 import flipkart from "./components/Courses/flipkart.png";
+import copilot from "./components/Courses/Copilot.png";
+import bussiness from "./components/Courses/BussinesChat.png";
+import GenAI from "./components/Courses/GenAI.png";
+import ethics from "./components/Courses/GenAIEthics.png";
+import ethics2 from "./components/Courses/GenAIEthics2.png";
+import ethics3 from "./components/Courses/GenAIEthics3.png";
+import ai from "./components/Courses/AIIntro.png";
+import microsoft from "./components/Courses/MicrosoftCertificate.png";
+import oracle from "./components/Courses/Oracle.png";
 let images=[aimlimg4,aimlimg1,aimlimg2,aimlimg3];
 let heading, content;
 function Certifications(){
@@ -48,7 +57,16 @@ function Certifications(){
                     <ol style={{ listStyle:"none"}}>
                     <AchievementsComponent images={[aimlimg4,aimlimg1,aimlimg2,aimlimg3]} heading={"Course on Artificial Intelligence and Machine Learning with Python"} content={"I had successfully completed the course on Artificial Intelligence and Machine Learning. Towards the end of the course I appeared for a"+
                                                                                                         "Microsoft Azure Certification Exam, qualifying which I got Microsoft Certified in Azure Fundamentals."}/>
+                    
+                    <AchievementsComponent images={[microsoft]} heading={'Career Essentials in Generative AI with Microsoft and LinkedIn'} content={'Above is the certificate for Career Essentials in Generative AI with Microsoft and LinkedIn'} />
+                    <AchievementsComponent images={[oracle]} heading={'Oracle'} content={'Above is the certification for Oracle cloud infrastructure AI Foundation Associate'} />
                     <AchievementsComponent images={[genai1, genai2]} heading={'Generative AI'} content={'Above are the certificates for completing the LinkedIn Learning Course on Generative AI'} />
+                    <AchievementsComponent images={[GenAI]} heading={'Evolution of Generative AI'} content={'Above is the certificate for completing the course Evolution of Generative AI.'} />
+                    <AchievementsComponent images={[copilot]} heading={'Copilot'} content={'Above is the certificate for the completing the course on Microsoft Copilot'} />
+                    <AchievementsComponent images={[bussiness]} heading={'Learning Microsoft 365 Copilot and Bussiness Chat'} content={'Above is the certificate for completing the course on Learning Microsoft 365 Copilot and Bussiness Chat '} />
+                    <AchievementsComponent images={[ethics, ethics2, ethics3]} heading={'Ethics in Generative AI'} content={'Above is the certificates for the course completion in topic , ethics in Generative AI'} />
+                    <AchievementsComponent images={[ai]} heading={'Introduction to AI'} content={'Above is the certificate for completing the course of topic Introduction to Artificial Intelligence'} />
+                    
                     <AchievementsComponent images={[mldlnlp]} heading={'Machine and Deep Learning, NLP Workshop'} content={'Above is the certificate for completing the Comprehensive Udemy Bootcamp on Machine Learning, Deep Learning and Natural Language Processing'} />
                     <AchievementsComponent images={[nextjs]} heading={'NextJs Framework'} content={'Above is the certificate for completing Udemy Course on NextJs'} />
                     <AchievementsComponent images={[cimg]} heading={"Course on C Language"} content={"I had successfully completed the course on C Language from Udemy. The Course gave me deep insights of the language and helped me develop fascinating codes by myself."}/>

@@ -20,8 +20,12 @@ const Carousel = ({ images }) => {
       <img src={images[currentIndex]} className="carousel_image_adjust" alt={`Slide ${currentIndex}`} />
       <br />
       <br />
-      <button onClick={prevSlide} className='button-left'>👈</button>
-      <button onClick={nextSlide} className='button-right' >👉</button>
+      {images.length > 1 && (
+        <>
+          <button onClick={prevSlide} className='button-left'>👈</button>
+          <button onClick={nextSlide} className='button-right'>👉</button>
+        </>
+      )}
       
       </div>
       
